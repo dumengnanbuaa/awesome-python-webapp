@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67df54ae-faa1-4f06-aa2d-872837cc7feb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/signin.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/www/transwarp/transwarp.db" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/urls.py" afterPath="$PROJECT_DIR$/www/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wsgiapp.py" afterPath="$PROJECT_DIR$/www/wsgiapp.py" />
     </list>
     <ignored path="awesome-python-webapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8807069" vertical-offset="0" max-vertical-offset="759">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2541" max-vertical-offset="3312">
+              <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
               <folding>
                 <element signature="e#76#121#0" expanded="true" />
               </folding>
@@ -82,11 +86,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgiapp.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="signin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/signin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-53.6875" vertical-offset="99" max-vertical-offset="1955">
+              <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgiapp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/wsgiapp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="517" max-vertical-offset="1288">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state vertical-scroll-proportion="1.6936672" vertical-offset="0" max-vertical-offset="1288">
+              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -142,8 +158,10 @@
         <option value="$PROJECT_DIR$/www/transwarp/orm.py" />
         <option value="$PROJECT_DIR$/www/models.py" />
         <option value="$PROJECT_DIR$/www/transwarp/web.py" />
-        <option value="$PROJECT_DIR$/www/wsgiapp.py" />
+        <option value="$PROJECT_DIR$/www/templates/register.html" />
+        <option value="$PROJECT_DIR$/www/templates/signin.html" />
         <option value="$PROJECT_DIR$/www/urls.py" />
+        <option value="$PROJECT_DIR$/www/wsgiapp.py" />
       </list>
     </option>
   </component>
@@ -750,21 +768,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wsgiapp.py">
+    <entry file="file://$PROJECT_DIR$/www/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="517" max-vertical-offset="1288">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state vertical-scroll-proportion="2.4420402" vertical-offset="559" max-vertical-offset="2277">
+          <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-53.6875" vertical-offset="99" max-vertical-offset="1955">
+          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8807069" vertical-offset="0" max-vertical-offset="759">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2541" max-vertical-offset="3312">
+          <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
           <folding>
             <element signature="e#76#121#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wsgiapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6936672" vertical-offset="0" max-vertical-offset="1288">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
